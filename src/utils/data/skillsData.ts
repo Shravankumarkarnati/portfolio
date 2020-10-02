@@ -1,0 +1,28 @@
+export const skillsData: Record<string, string[]> = {
+  "Programming Languages": ["JavaScript / TypeScript", "Python", "C++"],
+  "Frameworks And Libraries": [
+    "React",
+    "NextJs",
+    "GraphQL",
+    "SCSS",
+    "Styled Components",
+    "Redux",
+    "Redux Sagas",
+    "Context API",
+    "JQuery",
+    "Bootstrap",
+    "WebPack",
+  ],
+  "Databases ": ["MySQL", "PostgreSQL", "MongoDB", "DynamoDB"],
+  "Tools ": [
+    "GIT",
+    "AWS",
+    "Apollo GraphQL",
+    "MapBox",
+    "Docker",
+    "TyprORM",
+    "Firebase",
+    "Heroku",
+    "Netlify",
+  ],
+};
