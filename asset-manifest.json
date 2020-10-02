@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.js": "/portfolio/static/js/main.914b606f.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.914b606f.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
+    "static/js/2.0f697da3.chunk.js": "/portfolio/static/js/2.0f697da3.chunk.js",
+    "static/js/2.0f697da3.chunk.js.map": "/portfolio/static/js/2.0f697da3.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.f5c3a7ea5b6bc3c32c6624cc7137dc54.js": "/portfolio/precache-manifest.f5c3a7ea5b6bc3c32c6624cc7137dc54.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/js/2.0f697da3.chunk.js.LICENSE.txt": "/portfolio/static/js/2.0f697da3.chunk.js.LICENSE.txt",
+    "static/media/A-Star.png": "/portfolio/static/media/A-Star.cbf13ad9.png",
+    "static/media/Shravan Kumar Karnati.pdf": "/portfolio/static/media/Shravan Kumar Karnati.575b74f0.pdf",
+    "static/media/corterie.png": "/portfolio/static/media/corterie.527a37ac.png",
+    "static/media/moon.7a3fa40d.svg": "/portfolio/static/media/moon.7a3fa40d.svg",
+    "static/media/regale.png": "/portfolio/static/media/regale.87fd38ea.png",
+    "static/media/shorts.png": "/portfolio/static/media/shorts.923e33da.png",
+    "static/media/sun.b6f48617.svg": "/portfolio/static/media/sun.b6f48617.svg",
+    "static/media/travelLog.png": "/portfolio/static/media/travelLog.d8b755b0.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.209c2d7e.js",
+    "static/js/2.0f697da3.chunk.js",
+    "static/js/main.914b606f.chunk.js"
+  ]
+}
