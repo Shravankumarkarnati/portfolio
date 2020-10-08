@@ -14,6 +14,7 @@ const ShowAnimation = keyframes`
 interface navbarProps {
   setCurrent: React.Dispatch<React.SetStateAction<number>>;
   current: number;
+  stheme: string;
 }
 
 const UnderBarAnimation = keyframes`
@@ -265,7 +266,12 @@ const NavListItem: React.FC<NavListItemProps> = ({
   );
 };
 
-const NavBar: React.FC<navbarProps> = ({ setCurrent, current, children }) => {
+const NavBar: React.FC<navbarProps> = ({
+  setCurrent,
+  current,
+  stheme,
+  children,
+}) => {
   const [close, setClose] = useState(false);
   const NavListArray: string[] = ["Home", "About", "Projects", "Skills"];
   return (
@@ -293,7 +299,7 @@ const NavBar: React.FC<navbarProps> = ({ setCurrent, current, children }) => {
           {children}
           <div className="smallScreen">
             <FaArrowUp />
-            <p>Change Theme</p>
+            <p>{stheme} Mode</p>
           </div>
         </div>
       </NavContainer>

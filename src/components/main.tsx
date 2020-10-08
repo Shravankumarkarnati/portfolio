@@ -70,7 +70,11 @@ const Main: React.FC<mainProps> = ({ changeTheme, number }) => {
 
   return (
     <MainStyled>
-      <NavBar setCurrent={setCurrent} current={current}>
+      <NavBar
+        setCurrent={setCurrent}
+        current={current}
+        stheme={state === 1 ? "Dark" : "Light"}
+      >
         <ThemeButtonComponent />
       </NavBar>
       {current === 1 ? <Hero /> : null}

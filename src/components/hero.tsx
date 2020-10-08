@@ -79,7 +79,7 @@ const LinkContainer = styled(NameContainer)`
     flex-direction: row;
     justify-content: space-around;
   }
-  @media only screen and (max-width: ${({ theme }) => theme.screenMobileL}) {
+  @media only screen and (max-width: ${({ theme }) => theme.screenTabletP}) {
     display: grid;
     grid-template-rows: repeat(3, 25%);
     grid-template-columns: repeat(2, 25%);

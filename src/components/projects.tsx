@@ -32,19 +32,20 @@ const Project = styled.div`
   width: 100%;
   display: flex;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
   padding: 2rem;
   background-color: ${({ theme }) => theme.grey};
   border-bottom: 2rem solid ${({ theme }) => theme.primary};
-  &:nth-of-type(even) {
+  /* &:nth-of-type(even) {
     flex-direction: row-reverse;
-  }
-  @media only screen and (max-width: ${({ theme }) => theme.screenTabletP}) {
+  } */
+  /* @media only screen and (max-width: ${({ theme }) => theme.screenTabletP}) {
     flex-direction: column;
     &:nth-of-type(even) {
       flex-direction: column;
-    }
-  }
+    } */
+  /* } */
 `;
 
 const Part = styled.div`
@@ -75,17 +76,22 @@ const Tools = styled.ul`
   list-style: none;
   display: grid;
   grid-template-columns: repeat(5, max-content);
+  justify-content: center;
   grid-gap: 2rem;
+  @media only screen and (max-width: 900px) {
+    grid-template-columns: repeat(4, max-content);
+  }
   @media only screen and (max-width: ${({ theme }) => theme.screenTabletP}) {
     grid-template-columns: repeat(3, max-content);
   }
-  @media only screen and (max-width: ${({ theme }) => theme.screenMobileL}) {
+  @media only screen and (max-width: 700px) {
     grid-template-columns: repeat(2, max-content);
   }
 
   li {
     border-radius: 0.5rem;
     text-align: center;
+    align-self: center;
     font-size: 1.6rem;
     padding: 1rem 2rem;
     float: left;
@@ -111,7 +117,7 @@ const BtnContainer = styled.div`
   align-items: center;
   justify-content: center;
 
-  & button {
+  & a {
     margin: 2rem;
     padding: 1rem 2rem;
     border-radius: 0.5rem;
@@ -123,13 +129,11 @@ const BtnContainer = styled.div`
       outline: none;
     }
     background: ${({ theme }) => theme.colorPrimary};
-    & a {
-      color: ${({ theme }) => theme.primary};
-      text-decoration: none;
-      font-size: 1.8rem;
-      text-transform: capitalize;
-      font-weight: 500;
-    }
+    color: ${({ theme }) => theme.primary};
+    text-decoration: none;
+    font-size: 1.8rem;
+    text-transform: capitalize;
+    font-weight: 500;
   }
 `;
 
@@ -173,25 +177,17 @@ const Projects: React.FC<projectsProps> = () => {
             </Tools>
             <BtnContainer>
               {cur.live ? (
-                <button>
-                  <a
-                    href={`${cur.live}`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Live
-                  </a>
-                </button>
-              ) : null}
-              <button>
                 <a
-                  href={`${cur.code}`}
+                  href={`${cur.live}`}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Code
+                  Live
                 </a>
-              </button>
+              ) : null}
+              <a href={`${cur.code}`} target="_blank" rel="noopener noreferrer">
+                Code
+              </a>
             </BtnContainer>
           </Part>
         </Project>

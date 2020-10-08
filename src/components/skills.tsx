@@ -54,7 +54,7 @@ const Container = styled.div`
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 1rem;
 
-  @media only screen and (max-width: ${({ theme }) => theme.screenTabletP}) {
+  @media only screen and (max-width: 1900px) {
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 2rem;
     margin-bottom: 4rem;
