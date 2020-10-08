@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b7ef6727d26f359e02c6d5bf7f067c5f",
+    "revision": "490ad0a7cd84c4b177f006f8a6be9563",
     "url": "/portfolio/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.0f697da3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f4fb20afa198735befa8",
-    "url": "/portfolio/static/js/main.6ce2f011.chunk.js"
+    "revision": "acc3970ce53a5b99cdfb",
+    "url": "/portfolio/static/js/main.de77bb88.chunk.js"
   },
   {
     "revision": "7a6cc99bd8f08f9fa6ec",
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/Shravan Kumar Karnati.575b74f0.pdf"
   },
   {
-    "revision": "527a37ac0e6d78d132ce58dd4a04b37d",
-    "url": "/portfolio/static/media/corterie.527a37ac.png"
+    "revision": "54c070ccb7ece44d06748e73849bbeca",
+    "url": "/portfolio/static/media/corterie.54c070cc.png"
   },
   {
     "revision": "7a3fa40d7f1369502ec95c27ff9859b4",
