@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.js": "/portfolio/static/js/main.bd7755b8.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.bd7755b8.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.d4cd6078.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.d4cd6078.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
     "static/js/2.0f697da3.chunk.js": "/portfolio/static/js/2.0f697da3.chunk.js",
     "static/js/2.0f697da3.chunk.js.map": "/portfolio/static/js/2.0f697da3.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.dc7734e3d1902b1d4700dc13d0fba45f.js": "/portfolio/precache-manifest.dc7734e3d1902b1d4700dc13d0fba45f.js",
+    "precache-manifest.4fbe9109d558bdb230a364fcff2901d9.js": "/portfolio/precache-manifest.4fbe9109d558bdb230a364fcff2901d9.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/js/2.0f697da3.chunk.js.LICENSE.txt": "/portfolio/static/js/2.0f697da3.chunk.js.LICENSE.txt",
     "static/media/A-Star.png": "/portfolio/static/media/A-Star.cbf13ad9.png",
-    "static/media/Shravan Kumar Karnati.pdf": "/portfolio/static/media/Shravan Kumar Karnati.575b74f0.pdf",
+    "static/media/Shravan Kumar Karnati.pdf": "/portfolio/static/media/Shravan Kumar Karnati.73172583.pdf",
     "static/media/corterie.png": "/portfolio/static/media/corterie.54c070cc.png",
     "static/media/moon.7a3fa40d.svg": "/portfolio/static/media/moon.7a3fa40d.svg",
     "static/media/regale.png": "/portfolio/static/media/regale.87fd38ea.png",
@@ -22,6 +22,6 @@
   "entrypoints": [
     "static/js/runtime-main.209c2d7e.js",
     "static/js/2.0f697da3.chunk.js",
-    "static/js/main.bd7755b8.chunk.js"
+    "static/js/main.d4cd6078.chunk.js"
   ]
 }
