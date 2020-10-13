@@ -52,6 +52,7 @@ export const ParaStyled = styled.p`
     font-weight: 600;
     background: ${({ theme }) => theme.colorPrimary};
     -webkit-background-clip: text;
+    background-clip: text;
     --moz-background-clip: text;
     -webkit-text-fill-color: transparent;
   }

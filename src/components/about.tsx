@@ -123,29 +123,27 @@ const About: React.FC<aboutProps> = () => {
       </SectionContainer>
       <SectionContainer>
         <Heading>Professional Experience</Heading>
-        <Header>Project Intern</Header>
+        <Header>Big Data Developer</Header>
         <SubHeadingContainer>
           <p className="special"> Aspire Vision Tech, Hyderabad, India</p>
           <p className="special">May '17 - Aug '17</p>
         </SubHeadingContainer>
         <WorkList>
           <li>
-            Analysis of structured data using Big-Data Hadoop concepts and
-            MapReduce algorithms and utilized the mined data to identify
-            patterns.
+            Implemented a distributed database system using Hadoop 2.0.0 which
+            overcomes the SPOF and thus allowing parallel analysis of large data
+            by multiple engineers.
           </li>
           <li>
-            Querying databases with HiveQL queries and extracting information
-            using HDFS and Apache HIVE on regular basis.
+            Querying databases with optimized HiveQL queries, analysis of
+            structured data using MapReduce algorithms, extracting information
+            using HDFS and Apache HIVE, and tuning the database enhancing the
+            performance by 20%.
           </li>
           <li>
             Coordinate with other teams to help them make use of the Hadoop
             cluster and to easily integrate their results in the design we
             developed.
-          </li>
-          <li>
-            Obtained Microsoft Technical Associate in Big Data and Hadoop
-            Certification.
           </li>
         </WorkList>
       </SectionContainer>
@@ -165,7 +163,7 @@ const About: React.FC<aboutProps> = () => {
         </Header>
         <SubHeadingContainer>
           <p className="special">gitam university, vizag, india</p>
-          <p className="special">3.3 GPA</p>
+          <p className="special">3.4 GPA</p>
         </SubHeadingContainer>
         <SubHeadingContainer>JUN '14 - APR '18</SubHeadingContainer>
       </SectionContainer>

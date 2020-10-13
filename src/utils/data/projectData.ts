@@ -87,7 +87,16 @@ export const projectData: ProjectType[] = [
       "The goal was to implement two different machine learning models in order to classify, to the highest possible degree of Sensitivity and Specificity, credit card fraud from a dataset. After initial data exploration, we knew we would implement a logistic regression model and a neural network.",
     live: null,
     code: "https://bitbucket.org/ShravanKarnati/credit-card-fraud-detection/",
-    tools: ["Python", "Matplotlib", "Pandas", "Numpy", "Sklearn", "Seaborn"],
+    tools: [
+      "Python",
+      "Matplotlib",
+      "Pandas",
+      "Numpy",
+      "Sklearn",
+      "Seaborn",
+      "Logistic Regression",
+      "Neural Networks",
+    ],
   },
   {
     name: "INTERNET USER PROFILING",
